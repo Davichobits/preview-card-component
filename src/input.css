@@ -18,6 +18,7 @@
 
 @theme {
   --color-Dark-cyan: hsl(158, 36%, 37%);
+  --color-Very-Dark-cyan: hsla(157,43%,17%,1);
   --color-Cream: hsl(30, 38%, 92%);
   --color-Very-dark-blue: hsl(212, 21%, 14%);
   --color-Dark-grayish-blue: hsl(228, 12%, 48%);
