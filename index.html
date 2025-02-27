@@ -14,27 +14,30 @@
   <title>Frontend Mentor | Product preview card component</title>
 </head>
 
-<body>
+<body class="bg-Cream font-Montserrat text-Very-dark-blue">
   <!-- flex justify-center items-center -->
   <main class="h-screen grid place-content-center">
-    <div class="w-[343px] rounded-[10px] overflow-hidden">
+
+    <div class="w-[343px] rounded-[10px] overflow-hidden bg-White">
       <div>
-        <img src="./images/image-product-mobile.jpg" alt="">
+        <img src="./assets/images/image-product-mobile.jpg" alt="">
       </div>
-      <div>
-        <p>Perfume</p>
+      <div class="p-6">
+        <p class="uppercase text-Dark-grayish-blue text-xs tracking-[5px] mb-3">Perfume</p>
 
-        <h2>Gabrielle Essence Eau De Parfum</h2>
+        <h2 class="font-Fraunces text-[2em]/[32px] font-bold mb-4">Gabrielle Essence Eau De Parfum</h2>
 
+        <p class="text-Dark-grayish-blue text-[0.875em] mb-6">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
 
-        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
-
-        <div>
-          <p>$149.99</p>
-          <p>$169.99</p>
+        <div class="flex gap-5 items-center mb-[20px]">
+          <p class="font-Fraunces text-[2em] font-bold text-Dark-cyan">$149.99</p>
+          <p class="text-[0.8125em] text-Dark-grayish-blue line-through">$169.99</p>
         </div>
 
-        <bottom>Add to Cart</bottom>
+        <bottom class="bg-Dark-cyan w-full p-4 text-white cursor-pointer rounded-[8px] flex items-center justify-center gap-3">
+          <img src="./assets/images/icon-cart.svg" alt="">
+          <p>Add to Cart</p>
+        </bottom>
       </div>
     </div>
 
